@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.image4 {
+  height: 50px;
+}
+
+.recentMatchCard {
+  width: 47.6%;
+  box-sizing: border-box;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #0f172a;
+  margin: 5px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.competingTeam {
+  font-family: Bree serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+
+.p6 {
+  font-family: Bree serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+
+.p7 {
+  font-family: Bree serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.green {
+  color: #18ed66;
+}
+
+.red {
+  color: #e31a1a;
+}
+
+@media (min-width: 768px) {
+  .recentMatchCard {
+    width: 30%;
+    margin: 12px;
+  }
+}
